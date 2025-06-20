@@ -4,7 +4,7 @@ import img from '../assets/tushar.png'
 
 export default function Hero() {
   return (
-    <div style={{ backgroundImage: `url(${img})`,backgroundRepeat:'none' }} className="min-h-screen relative overflow-hidden px-4 md:px-16 bg-white">
+    <div style={{ backgroundImage: `url(${img})`,backgroundRepeat:'none' }} className="min-h-screen relative overflow-hidden px-4 md:px-16 bg-white pb-20">
       <div className="flex justify-between items-center py-6">
         <h1 className="text-2xl font-bold">DEVLOP.<span className="text-black">ME</span></h1>
         <nav className="hidden md:flex justify-center items-center space-x-8 text-sm text-gray-700 font-medium">
@@ -44,7 +44,7 @@ export default function Hero() {
         </div>
 
       </div>
-      <div className="hidden md:flex items-center absolute left-4 top-3/4 z-10 text-2xl">
+      <div className="hidden md:flex items-center absolute left-4 top-3/4 z-10 text-2xl pb-16">
         <span className=" text-xl rotate-90 relative top-5 text-gray-600 font-medium">@williamvoy</span>
         <div className="space-y-3">
         <FaTwitter className="text-black hover:text-blue-500" />
