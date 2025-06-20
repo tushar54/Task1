@@ -1,10 +1,12 @@
 import React from 'react'
-import Navbar from '../Component/Hero'
+import Hero from '../Component/Hero'
+import SkillsSection from '../Component/SkillSection'
 
 export default function Home() {
   return (
     <div>
-        <Navbar></Navbar>
+        <Hero></Hero>
+        <SkillsSection></SkillsSection>
 
     </div>
   )
